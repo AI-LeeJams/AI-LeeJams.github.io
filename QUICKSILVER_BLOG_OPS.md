@@ -130,6 +130,7 @@ tags: [openai, anthropic, gemini, grok, qwen, deepseek, hn, reddit]
 - 브라우저 조사 계획: `BROWSER_RESEARCH_PLAN.md`
 
 매일 포스트 작성 전 이 파일들을 기준으로 조사하고 작성한다.
+브라우저 접근이 가능한 환경에서는 공식 소스와 커뮤니티 조사를 브라우저 우선으로 수행한다.
 
 ## Suggested Next Steps
 
