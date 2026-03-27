@@ -42,7 +42,7 @@ tags: [ai, openai, anthropic, gemini, hacker-news, github, safety, coding]
 - OpenAI가 이 지점을 먼저 강하게 언어화한 건 꽤 의미가 있다.
 
 **출처**
-- 공식: https://openai.com/index/introducing-gpt-5-4-mini-and-nano/
+- [공식 원문](https://openai.com/index/introducing-gpt-5-4-mini-and-nano/)
 
 ### 2. OpenAI의 Safety Bug Bounty는 에이전트 시대 보안의 기준이 바뀌고 있음을 보여준다
 **무슨 일이 있었나**
@@ -65,7 +65,7 @@ tags: [ai, openai, anthropic, gemini, hacker-news, github, safety, coding]
 - 앞으로는 모델 성능표만큼 **실사용 안전성**이 경쟁 포인트가 될 가능성이 높다.
 
 **출처**
-- 공식: https://openai.com/index/safety-bug-bounty/
+- [공식 원문](https://openai.com/index/safety-bug-bounty/)
 
 ### 3. OpenAI의 Model Spec 해설은 ‘모델 행동의 공개 운영 문서화’ 시도다
 **무슨 일이 있었나**
@@ -86,8 +86,8 @@ tags: [ai, openai, anthropic, gemini, hacker-news, github, safety, coding]
 - 중요한 건 문서 공개 자체보다 **실제 모델 동작이 문서와 얼마나 일치하느냐**다. 이 부분은 계속 검증받게 될 것이다.
 
 **출처**
-- 공식: https://openai.com/index/our-approach-to-the-model-spec/
-- 참고: https://model-spec.openai.com/
+- [공식 원문](https://openai.com/index/our-approach-to-the-model-spec/)
+- [Model Spec](https://model-spec.openai.com/)
 
 ### 4. Anthropic은 Claude Opus 4.6으로 ‘상위권 에이전트 모델’ 정체성을 재강조했다
 **무슨 일이 있었나**
@@ -108,7 +108,7 @@ tags: [ai, openai, anthropic, gemini, hacker-news, github, safety, coding]
 - 이후 경쟁은 성능 숫자보다도 실제 장기 작업 신뢰도로 갈 가능성이 높다.
 
 **출처**
-- 공식: https://www.anthropic.com/news
+- [공식 뉴스 페이지](https://www.anthropic.com/news)
 
 ### 5. Google은 Gemini를 API·도구·에이전트 구조 안으로 더 깊게 밀어 넣고 있다
 **무슨 일이 있었나**
@@ -131,10 +131,10 @@ tags: [ai, openai, anthropic, gemini, hacker-news, github, safety, coding]
 - 최근 흐름은 “대단한 모델 발표”보다 **에이전트 운영 기능을 계속 다듬는 회사** 쪽에 더 가깝다.
 
 **출처**
-- 공식: https://developers.googleblog.com/how-we-built-the-google-io-2026-save-the-date-experience/
-- 공식: https://developers.googleblog.com/jules-gemini-3/
-- 공식: https://developers.googleblog.com/new-gemini-api-updates-for-gemini-3/
-- 보조 참고: https://developers.googleblog.com/en/continuing-to-bring-you-our-latest-models-with-an-improved-gemini-2-5-flash-and-flash-lite-release/
+- [Google I/O 2026 제작기](https://developers.googleblog.com/how-we-built-the-google-io-2026-save-the-date-experience/)
+- [Building with Gemini 3 in Jules](https://developers.googleblog.com/jules-gemini-3/)
+- [New Gemini API updates for Gemini 3](https://developers.googleblog.com/new-gemini-api-updates-for-gemini-3/)
+- [Gemini 2.5 Flash / Flash-Lite 업데이트](https://developers.googleblog.com/en/continuing-to-bring-you-our-latest-models-with-an-improved-gemini-2-5-flash-and-flash-lite-release/)
 
 ## 개발자 관점 체크포인트
 - **소형 모델을 보조 엔진으로 쓰는 설계가 점점 표준이 된다.**
@@ -172,19 +172,19 @@ tags: [ai, openai, anthropic, gemini, hacker-news, github, safety, coding]
 이번 주 흐름을 한 문장으로 줄이면 이렇다. **AI 경쟁의 중심이 “가장 똑똑한 모델”에서 “여러 크기의 모델과 에이전트를 얼마나 안전하고 효율적으로 실제 작업에 배치할 수 있나”로 이동하고 있다.** OpenAI는 이를 소형 모델과 안전 프로그램, 정책 문서화로 묶어 보여주고 있고, Anthropic은 상위권 에이전트 성능을, Google은 API·도구·워크플로 통합을 밀고 있다. 커뮤니티는 이미 그 다음 단계인 비용 효율, 로컬 실행, 오픈소스 운영성, 보안 리스크를 보고 있다.
 
 ## 참고 출처 모음
-- https://openai.com/news/
-- https://openai.com/index/introducing-gpt-5-4-mini-and-nano/
-- https://openai.com/index/safety-bug-bounty/
-- https://openai.com/index/our-approach-to-the-model-spec/
-- https://model-spec.openai.com/
-- https://www.anthropic.com/news
-- https://developers.googleblog.com/how-we-built-the-google-io-2026-save-the-date-experience/
-- https://developers.googleblog.com/jules-gemini-3/
-- https://developers.googleblog.com/new-gemini-api-updates-for-gemini-3/
-- https://developers.googleblog.com/en/continuing-to-bring-you-our-latest-models-with-an-improved-gemini-2-5-flash-and-flash-lite-release/
-- https://news.ycombinator.com/
-- https://news.ycombinator.com/item?id=47533297
-- https://news.ycombinator.com/item?id=47531967
-- https://news.ycombinator.com/item?id=47536761
-- https://news.ycombinator.com/item?id=47538190
-- https://github.com/trending
+- [OpenAI News](https://openai.com/news/)
+- [GPT-5.4 mini / nano](https://openai.com/index/introducing-gpt-5-4-mini-and-nano/)
+- [OpenAI Safety Bug Bounty](https://openai.com/index/safety-bug-bounty/)
+- [Inside our approach to the Model Spec](https://openai.com/index/our-approach-to-the-model-spec/)
+- [Model Spec](https://model-spec.openai.com/)
+- [Anthropic News](https://www.anthropic.com/news)
+- [Google I/O 2026 제작기](https://developers.googleblog.com/how-we-built-the-google-io-2026-save-the-date-experience/)
+- [Building with Gemini 3 in Jules](https://developers.googleblog.com/jules-gemini-3/)
+- [New Gemini API updates for Gemini 3](https://developers.googleblog.com/new-gemini-api-updates-for-gemini-3/)
+- [Gemini 2.5 Flash / Flash-Lite 업데이트](https://developers.googleblog.com/en/continuing-to-bring-you-our-latest-models-with-an-improved-gemini-2-5-flash-and-flash-lite-release/)
+- [Hacker News](https://news.ycombinator.com/)
+- [HN: $500 GPU outperforms Claude Sonnet on coding benchmarks](https://news.ycombinator.com/item?id=47533297)
+- [HN: LiteLLM malware attack response](https://news.ycombinator.com/item?id=47531967)
+- [HN: AI agent on a $7/month VPS](https://news.ycombinator.com/item?id=47536761)
+- [HN: Agent-to-agent pair programming](https://news.ycombinator.com/item?id=47538190)
+- [GitHub Trending](https://github.com/trending)
