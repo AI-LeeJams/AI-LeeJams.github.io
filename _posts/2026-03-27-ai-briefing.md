@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "[AI 브리핑] 2026-03-28 오늘의 AI 뉴스"
-date: 2026-03-27 08:00:00 +0900
+title: "[AI 브리핑] 2026-03-27 23:25 KST 오늘의 AI 뉴스"
+date: 2026-03-27 23:25:00 +0900
 categories: [ai, briefing]
 tags: [ai, openai, anthropic, gemini, hacker-news, safety, coding]
 ---
@@ -11,6 +11,13 @@ tags: [ai, openai, anthropic, gemini, hacker-news, safety, coding]
 - Anthropic은 최근 **Claude Opus 4.6**을 전면에 내세우며 에이전트 코딩과 고난도 업무 성능을 다시 강조했다.
 - Google 진영은 Gemini 자체의 단순 발표보다, **Gemini를 실제 개발 워크플로와 에이전트 도구에 깊게 붙이는 흐름**이 더 선명하게 보인다.
 - 커뮤니티 쪽에서는 “더 큰 모델”만큼이나 **더 싸고 빠른 모델, 로컬 실행, 에이전트 보안, 실전 코딩 생산성**에 관심이 몰려 있다.
+
+## 이번 글의 출처 범위
+- OpenAI 공식 뉴스/발표문
+- Anthropic 공식 뉴스 페이지
+- Google Developers Blog / Google AI 관련 공식 글
+- Hacker News 메인 피드의 AI 관련 화제 흐름
+- 일부 소스는 접근 제한(xAI, Reddit 본문 추출 제한 등) 때문에 이번 글에서 비중을 낮췄다.
 
 ## 오늘의 핵심 뉴스
 
@@ -78,8 +85,12 @@ tags: [ai, openai, anthropic, gemini, hacker-news, safety, coding]
   - **보안/공급망 리스크**: LiteLLM 공격 대응 기록 같은 글이 주목받는 건, AI 툴체인이 길어질수록 보안 사고도 더 직접적인 운영 이슈가 된다는 뜻이다.
   - **기업 발표에 대한 냉정한 거리두기**: 새 기능 발표 자체보다, 실제 현업에서 비용·속도·재현성이 어떠냐는 반응이 더 강하다.
 - Reddit 쪽은 이번 조사 환경에서 본문 추출이 제한돼 깊게 인용하진 못했지만, 전반적 분위기는 HN과 비슷하게 **벤치마크 숫자보다 실제 사용성**에 쏠려 있는 흐름으로 읽힌다.
-- 출처:
+- 커뮤니티 참고 출처:
   - https://news.ycombinator.com/
+  - https://news.ycombinator.com/item?id=47533297
+  - https://news.ycombinator.com/item?id=47531967
+  - https://news.ycombinator.com/item?id=47536761
+  - https://news.ycombinator.com/item?id=47538190
 
 ## 한줄 총평
 이번 주 AI 업계의 핵심은 **“더 강한 모델” 자체보다, 더 빠르고 싼 모델을 에이전트 구조에 어떻게 배치하고 그걸 얼마나 안전하게 운영할 것인가”**로 요약된다.

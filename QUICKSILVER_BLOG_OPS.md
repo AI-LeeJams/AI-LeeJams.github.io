@@ -39,10 +39,13 @@
 
 - 한국어
 - 차분함
+- 단순 요약보다 분석 우선
 - 과장 금지
 - 확인되지 않은 루머는 루머라고 명시
 - 클릭베이트 제목 금지
 - 공식 발표와 커뮤니티 반응을 구분해서 서술
+- 각 핵심 주장에는 가능한 한 원문 출처를 직접 남길 것
+- 가능하면 복수 출처를 교차 확인할 것
 
 ## Daily Structure
 
@@ -91,10 +94,14 @@ tags: [openai, anthropic, gemini, grok, qwen, deepseek, hn, reddit]
 ## Publishing Rules
 
 - 게시 전 제목, 날짜, front matter 확인
+- 포스트의 `date`는 미래 시각으로 두지 말고 실제 작성/게시 시각(Asia/Seoul)으로 입력
+- 파일명 날짜도 실제 작성일 기준으로 생성
 - 출처 링크 누락 금지
+- 핵심 주장마다 가능한 한 직접 출처를 명시
 - 사실/해석 분리
 - 중복 내용 반복 금지
 - 애매한 수치는 원문 확인 전 단정 금지
+- 내용이 약하면 공식 소스 + 커뮤니티 + 보조 소스를 더 찾아 보강한 뒤 게시
 
 ## Git Workflow
 
@@ -112,8 +119,9 @@ tags: [openai, anthropic, gemini, grok, qwen, deepseek, hn, reddit]
 
 - 외부 플랫폼 로그인/연동
 - 자동 게시 스케줄 생성
-- 원격 저장소 push
 - 대규모 기존 포스트 수정
+
+리잼은 `/Users/leejam/AI-LeeJams.github.io/` 블로그 프로젝트에 한해 포스트 작성 후 `git push`를 별도 승인 없이 진행하는 것을 허용했다.
 
 ## Suggested Next Steps
 
