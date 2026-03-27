@@ -123,9 +123,16 @@ tags: [openai, anthropic, gemini, grok, qwen, deepseek, hn, reddit]
 
 리잼은 `/Users/leejam/AI-LeeJams.github.io/` 블로그 프로젝트에 한해 포스트 작성 후 `git push`를 별도 승인 없이 진행하는 것을 허용했다.
 
+## Internal Operating Files
+
+- 분석형 템플릿: `ANALYTICAL_POST_TEMPLATE.md`
+- 일일 조사 체크리스트: `DAILY_RESEARCH_CHECKLIST.md`
+
+매일 포스트 작성 전 이 두 파일을 기준으로 조사하고 작성한다.
+
 ## Suggested Next Steps
 
 1. `_config.yml` 블로그 메타데이터 정리
-2. 기본 포스트 템플릿 추가
-3. 조사 체크리스트 스크립트 또는 워크플로 설계
+2. 조사 루틴 자동화
+3. 브라우저 기반 조사 경로 보강
 4. 원하면 아침 자동 리서치/초안 생성 스케줄링
