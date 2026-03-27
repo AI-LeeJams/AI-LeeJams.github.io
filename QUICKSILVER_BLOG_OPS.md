@@ -127,8 +127,9 @@ tags: [openai, anthropic, gemini, grok, qwen, deepseek, hn, reddit]
 
 - 분석형 템플릿: `ANALYTICAL_POST_TEMPLATE.md`
 - 일일 조사 체크리스트: `DAILY_RESEARCH_CHECKLIST.md`
+- 브라우저 조사 계획: `BROWSER_RESEARCH_PLAN.md`
 
-매일 포스트 작성 전 이 두 파일을 기준으로 조사하고 작성한다.
+매일 포스트 작성 전 이 파일들을 기준으로 조사하고 작성한다.
 
 ## Suggested Next Steps
 
