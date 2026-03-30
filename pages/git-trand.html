@@ -65,31 +65,6 @@ permalink: /git-trand/
                         {% endif %}
                     </p>
                 </section>
-
-                {% if repository.why_it_matters %}
-                <section class="git-trand-explain-box">
-                    <p class="git-trand-box-label">왜 이번 주에 주목받는가</p>
-                    <p class="git-trand-box-copy">{{ repository.why_it_matters }}</p>
-                </section>
-                {% endif %}
-
-                <section class="git-trand-explain-box">
-                    <p class="git-trand-box-label">누구에게 맞는가</p>
-                    <p class="git-trand-box-copy">
-                        {% if repository.best_for %}
-                        {{ repository.best_for }}
-                        {% else %}
-                        관련 워크플로를 직접 만들거나 검토해야 하는 개발자/실무자에게 적합합니다.
-                        {% endif %}
-                    </p>
-                </section>
-
-                {% if repository.adoption_notes %}
-                <section class="git-trand-explain-box">
-                    <p class="git-trand-box-label">도입 전에 볼 점</p>
-                    <p class="git-trand-box-copy">{{ repository.adoption_notes }}</p>
-                </section>
-                {% endif %}
             </div>
 
             {% if repository.description and repository.description != '' %}
