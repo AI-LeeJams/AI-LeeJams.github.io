@@ -21,6 +21,12 @@ body {
   width: 100%;
 }
 
+.page-container-wide {
+  max-width: 1180px;
+  width: auto;
+  margin: 0 auto;
+}
+
 .is-centered {
   display: block;
   margin: 0 auto;
@@ -33,4 +39,523 @@ body {
 .hero.is-primary {
   background-color: #FF8C69;
   color: white;
+}
+
+.hero .title.is-1 {
+  font-size: 3rem;
+  line-height: 1.05;
+}
+
+.hero .subtitle.is-4 {
+  font-size: 1.5rem;
+  line-height: 1.3;
+}
+
+.section .heading .title.is-3 {
+  font-size: 2rem;
+}
+
+.box .title.is-2 {
+  font-size: 2rem;
+  line-height: 1.25;
+}
+
+.post-content h1 {
+  font-size: 2.2rem;
+  line-height: 1.2;
+}
+
+.post-content h2 {
+  font-size: 1.9rem;
+  line-height: 1.25;
+}
+
+.post-content h3 {
+  font-size: 1.55rem;
+  line-height: 1.3;
+}
+
+.site-nav-links {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.5rem;
+}
+
+.site-nav-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-weight: 600;
+}
+
+.site-nav-link-icon-only {
+  justify-content: center;
+  min-width: 3rem;
+}
+
+.site-nav-link-icon-only .icon {
+  margin-right: 0;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .hero .title.is-1 {
+    font-size: 2.7rem;
+  }
+
+  .hero .subtitle.is-4 {
+    font-size: 1.45rem;
+  }
+
+  .section .heading .title.is-3 {
+    font-size: 1.9rem;
+  }
+
+  .box .title.is-2 {
+    font-size: 1.45rem;
+    line-height: 1.3;
+  }
+
+  .post-content h1 {
+    font-size: 1.7rem;
+  }
+
+  .post-content h2 {
+    font-size: 1.45rem;
+  }
+
+  .post-content h3 {
+    font-size: 1.25rem;
+  }
+
+  .nav > .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .site-nav-links {
+    display: flex !important;
+  }
+
+  .site-nav-link {
+    padding-right: 0.75rem;
+    padding-left: 0.75rem;
+  }
+}
+
+.about-layout {
+  align-items: stretch;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.about-layout > .column {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.about-page-shell {
+  width: 100%;
+  max-width: none;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.about-aside,
+.about-card {
+  background: #fffdf9;
+  border: 1px solid rgba(91, 58, 45, 0.1);
+  box-shadow: 0 18px 45px rgba(91, 58, 45, 0.08);
+}
+
+.about-aside {
+  height: 100%;
+  padding: 1.7rem 1.5rem;
+}
+
+.about-eyebrow,
+.about-section-label {
+  margin-bottom: 0.85rem;
+  color: #b06448;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.about-name {
+  margin-bottom: 0.85rem;
+  color: #33211b;
+  font-size: 2rem;
+  line-height: 1.1;
+}
+
+.about-lead {
+  margin-bottom: 1.5rem;
+  color: #5d463d;
+  font-size: 1.05rem;
+  line-height: 1.75;
+}
+
+.about-highlights {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-bottom: 1.5rem;
+}
+
+.about-highlight {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.4rem 0.75rem;
+  border-radius: 999px;
+  background: rgba(255, 140, 105, 0.1);
+  color: #8a4f3c;
+  font-size: 0.78rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.about-link {
+  display: inline-flex;
+  align-items: center;
+  color: #8f4f39;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.about-link:hover {
+  color: #c16441;
+}
+
+.about-card {
+  padding: 1.7rem 1.75rem;
+}
+
+.about-card + .about-card {
+  margin-top: 1.5rem;
+}
+
+.about-card-soft {
+  background: linear-gradient(180deg, #fffaf6 0%, #fff6f0 100%);
+}
+
+.about-copy p {
+  margin-bottom: 1.15rem;
+  color: #49342d;
+  font-size: 1.06rem;
+  line-height: 1.95;
+}
+
+.about-focus-list {
+  margin: 0;
+  padding-left: 1.2rem;
+  color: #49342d;
+}
+
+.about-focus-list li {
+  margin-bottom: 0.75rem;
+  line-height: 1.8;
+}
+
+
+@media screen and (max-width: 768px) {
+  .about-page-shell {
+    padding: 0;
+  }
+
+  .about-layout {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .about-layout > .column {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .about-aside,
+  .about-card {
+    padding: 1.3rem 1.15rem;
+  }
+
+  .about-name {
+    font-size: 1.7rem;
+  }
+
+  .about-copy p {
+    font-size: 1rem;
+    line-height: 1.85;
+  }
+}
+
+.git-trand-page {
+  padding-top: 0.25rem;
+}
+
+.git-trand-hero {
+  margin-bottom: 1.5rem;
+}
+
+.git-trand-eyebrow,
+.git-trand-box-label,
+.git-trand-summary-label,
+.git-trand-inline-label {
+  color: #b06448;
+  font-size: 0.74rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.git-trand-hero-title {
+  margin: 0.45rem 0 0.85rem;
+  color: #33211b;
+  font-size: 2.15rem;
+  line-height: 1.18;
+}
+
+.git-trand-hero-copy {
+  max-width: 860px;
+  margin-bottom: 1.2rem;
+  color: #4f3a32;
+  font-size: 1.02rem;
+  line-height: 1.9;
+}
+
+.git-trand-summary-card,
+.git-trand-guide-card,
+.git-trand-repo-card,
+.git-trand-explain-box {
+  border: 1px solid rgba(91, 58, 45, 0.08);
+  background: linear-gradient(180deg, #fffdfa 0%, #fff8f2 100%);
+  box-shadow: 0 18px 45px rgba(91, 58, 45, 0.06);
+}
+
+.git-trand-summary-card {
+  padding: 1.2rem 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.git-trand-summary-text {
+  margin: 0.55rem 0 0.85rem;
+  color: #49342d;
+  line-height: 1.8;
+}
+
+.git-trand-summary-meta,
+.git-trand-language-pills,
+.git-trand-repo-stats,
+.git-trand-built-by {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+}
+
+.git-trand-summary-chip,
+.git-trand-language-pill,
+.git-trand-built-by-chip,
+.git-trand-stat,
+.git-trand-category-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.48rem 0.74rem;
+  border-radius: 999px;
+  background: rgba(255, 140, 105, 0.1);
+  color: #8a4f3c;
+  font-size: 0.82rem;
+  letter-spacing: 0.02em;
+}
+
+.git-trand-summary-chip-link {
+  font-weight: 700;
+}
+
+.git-trand-summary-chip-link:hover {
+  color: #c16441;
+}
+
+.git-trand-guide-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin-bottom: 1.45rem;
+}
+
+.git-trand-guide-card {
+  padding: 1.15rem 1.2rem;
+}
+
+.git-trand-guide-card h3 {
+  margin-bottom: 0.65rem;
+  color: #33211b;
+  font-size: 1.02rem;
+}
+
+.git-trand-guide-card p {
+  color: #5c453b;
+  line-height: 1.8;
+}
+
+.git-trand-language-dot {
+  width: 0.72rem;
+  height: 0.72rem;
+  border-radius: 999px;
+  background: #d8b29e;
+}
+
+.git-trand-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+.git-trand-repo-card {
+  padding: 1.4rem;
+}
+
+.git-trand-repo-head {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.git-trand-repo-title-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  align-items: center;
+}
+
+.git-trand-repo-main {
+  flex: 1;
+}
+
+.git-trand-rank {
+  min-width: 3rem;
+  padding: 0.32rem 0.55rem;
+  background: #33211b;
+  color: #fff7f1;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-align: center;
+}
+
+.git-trand-category-pill {
+  background: rgba(51, 33, 27, 0.08);
+  color: #5a392f;
+  font-weight: 700;
+}
+
+.git-trand-repo-link {
+  color: #33211b;
+  font-size: 1.18rem;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.git-trand-repo-link:hover {
+  color: #c16441;
+}
+
+.git-trand-repo-owner {
+  margin-top: 0.2rem;
+  color: #8a5b4a;
+  font-size: 0.82rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.git-trand-explain-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.git-trand-explain-box {
+  padding: 1rem 1.05rem;
+  background: #fffdfa;
+}
+
+.git-trand-explain-box-accent {
+  background: linear-gradient(180deg, #fff8f3 0%, #fff4ec 100%);
+}
+
+.git-trand-box-copy {
+  margin-top: 0.5rem;
+  color: #49342d;
+  line-height: 1.85;
+}
+
+.git-trand-repo-description {
+  margin-bottom: 1rem;
+  color: #49342d;
+  line-height: 1.8;
+}
+
+.git-trand-inline-label {
+  display: block;
+  margin-bottom: 0.45rem;
+}
+
+.git-trand-repo-description-muted {
+  color: #8a746a;
+}
+
+.git-trand-repo-stats {
+  margin-bottom: 0.9rem;
+}
+
+.git-trand-stat-accent {
+  background: rgba(176, 100, 72, 0.14);
+  color: #7d422f;
+}
+
+.git-trand-built-by-wrap {
+  margin-top: 0.15rem;
+}
+
+.git-trand-built-by-wrap .git-trand-inline-label {
+  margin-bottom: 0.55rem;
+}
+
+@media screen and (max-width: 900px) {
+  .git-trand-guide-grid,
+  .git-trand-explain-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .git-trand-hero-title {
+    font-size: 1.7rem;
+  }
+
+  .git-trand-repo-head {
+    flex-direction: column;
+  }
+
+  .git-trand-rank {
+    min-width: 0;
+  }
 }
