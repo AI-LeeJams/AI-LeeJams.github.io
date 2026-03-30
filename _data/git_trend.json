@@ -1,8 +1,8 @@
 {
   "source_url": "https://github.com/trending?since=weekly",
-  "captured_at": "2026-03-30T21:32:52+09:00",
+  "captured_at": "2026-03-31T08:02:03+09:00",
   "time_range": "weekly",
-  "summary": "2026-03-30 기준 GitHub Trending(weekly)은 에이전트 운영·메모리 계층·음성 AI처럼 실제 워크플로에 붙는 인프라형 프로젝트와, 영상·합성·콘텐츠 자동화 도구가 함께 강하게 올라온 흐름입니다.",
+  "summary": "2026-03-31 기준 GitHub Trending(weekly)은 에이전트 하니스·메모리 계층·음성 AI처럼 실제 워크플로에 붙는 인프라형 프로젝트와, 영상·콘텐츠 자동화 도구가 함께 강세를 보이는 흐름입니다.",
   "repositories": [
     {
       "rank": 1,
@@ -16,8 +16,8 @@
       "when_to_use": "신제품·논문·AI 이슈를 빠르게 훑고 블로그 초안이나 시장 브리핑의 입력 자료를 만들 때 잘 맞습니다. 공식 발표만으로 부족할 때 주변 반응까지 한 번에 확인하기 좋습니다.",
       "language": "Python",
       "language_color": "#3572A5",
-      "stars": 16137,
-      "forks": 1276,
+      "stars": 16355,
+      "forks": 1300,
       "stars_today": 10436
     },
     {
@@ -32,8 +32,8 @@
       "when_to_use": "초기 공간 콘셉트나 가벼운 3D 프로토타입을 빠르게 보여줘야 할 때 검토할 만합니다. 설계안 설명용 데모나 웹 기반 협업 워크플로를 찾을 때 유용합니다.",
       "language": "TypeScript",
       "language_color": "#3178c6",
-      "stars": 8373,
-      "forks": 1082,
+      "stars": 8484,
+      "forks": 1092,
       "stars_today": 5790
     },
     {
@@ -48,8 +48,8 @@
       "when_to_use": "짧은 챗봇이 아니라 여러 단계의 긴 업무를 자동화하고 싶을 때 참고 가치가 큽니다. 상태 유지와 역할 분업이 필요한 에이전트 시스템 설계에 특히 잘 맞습니다.",
       "language": "Python",
       "language_color": "#3572A5",
-      "stars": 53645,
-      "forks": 6463,
+      "stars": 53992,
+      "forks": 6506,
       "stars_today": 18158
     },
     {
@@ -64,8 +64,8 @@
       "when_to_use": "실시간 합성 미디어 기술을 연구하거나 데모 수준의 가능성을 확인할 때 참고할 수 있습니다. 다만 실제 활용 전에는 윤리·초상권·오용 리스크를 먼저 검토해야 합니다.",
       "language": "Python",
       "language_color": "#3572A5",
-      "stars": 85917,
-      "forks": 12499,
+      "stars": 86292,
+      "forks": 12536,
       "stars_today": 4805
     },
     {
@@ -80,8 +80,8 @@
       "when_to_use": "네트워크가 불안정한 환경, 폐쇄망, 홈랩, 휴대형 로컬 AI 구성이 필요할 때 살펴볼 만합니다. 온디바이스 중심 워크플로를 구상할 때 아이디어를 얻기 좋습니다.",
       "language": "TypeScript",
       "language_color": "#3178c6",
-      "stars": 20025,
-      "forks": 1892,
+      "stars": 20238,
+      "forks": 1920,
       "stars_today": 11503
     },
     {
@@ -96,8 +96,8 @@
       "when_to_use": "직접 도입보다 자동 콘텐츠 파이프라인이나 운영 자동화 아이디어를 참고할 때 보는 편이 좋습니다. 과장된 약속보다 실제 자동화 구조가 무엇인지 분해해서 판단해야 합니다.",
       "language": "Python",
       "language_color": "#3572A5",
-      "stars": 27367,
-      "forks": 2894,
+      "stars": 27444,
+      "forks": 2903,
       "stars_today": 8460
     },
     {
@@ -112,8 +112,8 @@
       "when_to_use": "연구 자동화나 과학 발견 보조 시스템의 방향을 이해하고 싶을 때 적합합니다. 바로 제품화하기보다 차세대 연구 도구가 어떻게 설계되는지 참고할 때 가치가 큽니다.",
       "language": "Python",
       "language_color": "#3572A5",
-      "stars": 3968,
-      "forks": 584,
+      "stars": 4044,
+      "forks": 596,
       "stars_today": 1449
     },
     {
@@ -128,8 +128,8 @@
       "when_to_use": "음성 비서, 보이스 UI, 콜봇, 음성형 프로토타입을 만들고 싶을 때 검토할 만합니다. 텍스트 중심 서비스에 음성 인터랙션을 붙이려는 팀에게 특히 흥미롭습니다.",
       "language": "Python",
       "language_color": "#3572A5",
-      "stars": 28584,
-      "forks": 3143,
+      "stars": 29923,
+      "forks": 3273,
       "stars_today": 4421
     },
     {
@@ -144,8 +144,8 @@
       "when_to_use": "세션이 끊겨도 이어지는 사용자 경험이나 개인화된 장기 대화가 필요할 때 중요합니다. 에이전트 제품에서 기억 계층을 설계할 때 참고하기 좋습니다.",
       "language": "TypeScript",
       "language_color": "#3178c6",
-      "stars": 20438,
-      "forks": 1881,
+      "stars": 20570,
+      "forks": 1889,
       "stars_today": 3010
     },
     {
@@ -160,8 +160,8 @@
       "when_to_use": "금융 분석 자동화나 멀티 에이전트 의사결정 구조를 실험하고 싶을 때 참고할 만합니다. 실전 운용보다는 연구·프로토타입 단계에서 먼저 검토하는 편이 자연스럽습니다.",
       "language": "Python",
       "language_color": "#3572A5",
-      "stars": 44304,
-      "forks": 8025,
+      "stars": 44532,
+      "forks": 8067,
       "stars_today": 7622
     },
     {
@@ -176,8 +176,8 @@
       "when_to_use": "숏폼 제작 자동화나 반복적인 마케팅 영상 생산 흐름을 시험해보고 싶을 때 적합합니다. 콘텐츠 공장형 워크플로의 장단점을 파악할 때도 참고할 만합니다.",
       "language": "Python",
       "language_color": "#3572A5",
-      "stars": 54077,
-      "forks": 7632,
+      "stars": 54147,
+      "forks": 7642,
       "stars_today": 3260
     },
     {
@@ -192,8 +192,8 @@
       "when_to_use": "코딩 에이전트가 세션을 넘어 상태를 이어받게 하고 싶을 때 흥미로운 참고 사례입니다. 메모리 레이어가 실제 생산성에 어떤 차이를 만드는지 살펴볼 때 좋습니다.",
       "language": "TypeScript",
       "language_color": "#3178c6",
-      "stars": 2306,
-      "forks": 165,
+      "stars": 2348,
+      "forks": 166,
       "stars_today": 1267
     }
   ]
