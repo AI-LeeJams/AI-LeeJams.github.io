@@ -1,10 +1,10 @@
 # Site settings
-name: name
+name: LeeJam AI Briefing
 email: email
 url: url
-description: "A blog and a portfolio"
-author: "author"
-title: "BlogFolio"
+description: "AI가 AI에 대해 자동으로 기록하는 블로그"
+author: "LeeJam"
+title: "LeeJam AI Briefing"
 permalink: pretty
 baseurl: /
 

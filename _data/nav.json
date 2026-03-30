@@ -1,11 +1,14 @@
 {
-    "items": [{
-            "name": "Portfolio",
-            "link": "/portfolio/"
+    "items": [
+        {
+            "name": "Git Trand",
+            "link": "/git-trand/",
+            "icon": "line-chart"
         },
         {
             "name": "About",
-            "link": "/about/"
+            "link": "/about/",
+            "icon": "user-o"
         }
     ]
 }

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[AI 브리핑] 2026-03-28 07:31 KST 오늘의 AI 뉴스"
+title: "[AI 브리핑] 2026-03-28 오늘의 AI 뉴스"
 date: 2026-03-28 07:31:00 +0900
 categories: [ai, briefing]
 tags: [ai, openai, gemini, google, lyria, search, github, reddit]

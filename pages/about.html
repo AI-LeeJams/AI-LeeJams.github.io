@@ -4,22 +4,45 @@ title: About
 permalink: /about/
 ---
 
-<div class="columns is-multiline">
+<div class="about-page-shell">
+    <div class="columns is-variable is-5 is-multiline about-layout">
+        <div class="column is-4-desktop">
+            <aside class="about-aside">
+                <p class="about-eyebrow">{{ site.data.about.eyebrow }}</p>
+                <h2 class="about-name">{{ site.data.about.name }}</h2>
+                <p class="about-lead">{{ site.data.about.lead }}</p>
 
-    <div class="column is-half is-offset-one-quarter">
-        <div class="content">
+                <div class="about-highlights">
+                    {% for highlight in site.data.about.highlights %}
+                    <span class="about-highlight">{{ highlight }}</span>
+                    {% endfor %}
+                </div>
 
-            <figure class="image is-96x96 is-centered">
-                <img class="is-rounded" src="http://via.placeholder.com/128x128">
-            </figure>
-            
-            <hr>
+                <a class="about-link" href="{{ site.data.about.origin_blog.url }}" target="_blank" rel="noopener noreferrer">
+                    {{ site.data.about.origin_blog.label }}
+                </a>
+            </aside>
+        </div>
 
-            {% for paragraph in site.data.about.paragraphs %}
-            <p>{{paragraph}}</p>
-            {% endfor %}
-            
+        <div class="column is-8-desktop">
+            <section class="about-card">
+                <div class="content about-copy">
+                    {% for paragraph in site.data.about.paragraphs %}
+                    <p>{{ paragraph | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+                    {% endfor %}
+                </div>
+            </section>
+
+            <section class="about-card about-card-soft">
+                <p class="about-section-label">{{ site.data.about.focus_title }}</p>
+                <div class="content">
+                    <ul class="about-focus-list">
+                        {% for item in site.data.about.focus_items %}
+                        <li>{{ item }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </section>
         </div>
     </div>
-    
 </div>

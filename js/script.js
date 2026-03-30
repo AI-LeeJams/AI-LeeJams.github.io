@@ -1,15 +1,23 @@
 (function () {
-    const menu = document.querySelector('.nav-toggle');
-    const navRight = document.querySelector('.nav-right');
+    initMenu();
 
-    menu.addEventListener('click', toggleMenu);
+    function initMenu() {
+        const menu = document.querySelector('.nav-toggle');
+        const navRight = document.querySelector('.nav-right');
 
-    function toggleMenu() {
-        menu
-            .classList
-            .toggle('is-active');
-        navRight
-            .classList
-            .toggle('is-active');
+        if (!menu || !navRight) {
+            return;
+        }
+
+        menu.addEventListener('click', toggleMenu);
+
+        function toggleMenu() {
+            menu
+                .classList
+                .toggle('is-active');
+            navRight
+                .classList
+                .toggle('is-active');
+        }
     }
 })();

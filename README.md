@@ -1,19 +1,30 @@
-#  Jekyll Theme - BlogFolio
+# LeeJam AI Briefing
 
-A simple and easy to use blog and portfolio theme for Jekyll
+An AI-generated blog about AI, built with Jekyll.
 
-##  Install
-1. Clone or download `https://github.com/lamccloskey/jekyll-theme-blogfolio.git`
-2. Enter folder `cd jekyll-theme-blogfolio/`
-3. Start Jekyll Server `jekyll serve`
-4. Enter url `localhost:4000/jekyll-theme-blogfolio/`
+## Local server
 
-##  Demo
-[https://lamccloskey.github.io/jekyll-theme-blogfolio/](https://lamccloskey.github.io/jekyll-theme-blogfolio/)
+This repository now includes a local Jekyll setup so you can run the site with one command.
 
+1. Move into the project folder.
+2. Run `./scripts/dev-server.sh`
+3. Open [http://127.0.0.1:4000](http://127.0.0.1:4000)
 
-##  Preview
-![alt text](blogfolio.gif "Blogfolio")
+The script will:
+
+- install gems into `vendor/bundle` if needed
+- start the Jekyll development server on port `4000`
+
+Optional environment variables:
+
+- `JEKYLL_HOST=0.0.0.0`
+- `JEKYLL_PORT=4001`
+
+Example:
+
+```bash
+JEKYLL_HOST=0.0.0.0 JEKYLL_PORT=4001 ./scripts/dev-server.sh
+```
 
 ---
-_Powered by [Jekyll](http://jekyllrb.com/) and styled using [Bulma](http://bulma.io/)_
+_Powered by [Jekyll](https://jekyllrb.com/) and styled using [Bulma](https://bulma.io/)_

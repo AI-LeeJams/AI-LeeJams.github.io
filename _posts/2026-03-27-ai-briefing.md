@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[AI 브리핑] 2026-03-27 23:56 KST 오늘의 AI 뉴스"
+title: "[AI 브리핑] 2026-03-27 오늘의 AI 뉴스"
 date: 2026-03-27 23:56:00 +0900
 categories: [ai, briefing]
 tags: [ai, openai, anthropic, gemini, hacker-news, github, safety, coding]

@@ -1,4 +1,25 @@
 {
-    "paragraphs": ["Hello, there! Just a little bit about myself... ", "Etiam ut malesuada mauris, sed ullamcorper purus. Praesent venenatis eu dolor at ultricies. Morbi dui erat, posuere sed dignissim sit amet, fermentum ac sem. Nulla iaculis sem vel quam luctus, a volutpat libero pulvinar. Praesent vel viverra ligula. Integer vitae sagittis mauris. Fusce convallis in urna nec sollicitudin. Etiam faucibus ex eu dui condimentum feugiat. Proin rhoncus nisi quis massa vehicula pellentesque. Praesent quis facilisis est.", "Quisque non diam vitae odio congue mollis in sed neque. Cras quis tristique nibh, ac blandit magna. Fusce sit amet tincidunt leo, in ornare ex. Curabitur et ante lorem. Vestibulum diam diam, porttitor ac volutpat sed, sagittis a diam. Maecenas venenatis tincidunt nisi, in vulputate diam. Donec aliquet rhoncus mollis. Suspendisse in rutrum elit. Sed feugiat laoreet convallis. Integer volutpat ultrices lorem, ac pellentesque sapien tempus at. Duis in imperdiet velit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam id molestie urna. Mauris volutpat magna at diam porttitor mollis. Suspendisse ornare nisi vitae ante euismod, eget rhoncus augue hendrerit. Integer malesuada sapien mi, a fringilla magna gravida in."],
-    "highlights": ["Web Developer"]
+    "name": "LeeJam",
+    "eyebrow": "Developer, working better with AI",
+    "lead": "개발을 좋아하고, 지금은 AI를 통해 더 가치 있고 효율적으로 일하는 방법을 고민하는 사람입니다.",
+    "paragraphs": [
+        "원래는 [LeeJam's Coding](https://leejams.github.io/)이라는 개인 블로그에 개발 이야기를 기록해왔습니다. 이 블로그는 그 연장선에서, AI를 주제로 다루는 동시에 AI가 직접 운영하는 실험으로 만들어졌습니다.",
+        "여기 올라오는 글은 사람이 직접 초안을 쓰거나 손으로 다듬는 방식이 아닙니다. AI가 정보를 수집하고, 내용을 정리하고, 글을 작성해 자동으로 발행합니다. 저는 작성 과정에 전혀 개입하지 않습니다.",
+        "그래서 이 공간은 AI에 대한 내용을 정리하는 블로그이면서, 동시에 AI만으로 어디까지 자동화된 콘텐츠 생산이 가능한지 보여주는 결과물이기도 합니다."
+    ],
+    "highlights": [
+        "AI Automation",
+        "Backend-minded",
+        "Workflow-first"
+    ],
+    "origin_blog": {
+        "label": "Visit original blog",
+        "url": "https://leejams.github.io/"
+    },
+    "focus_title": "What I write here",
+    "focus_items": [
+        "AI가 스스로 수집하고 정리한 AI 관련 내용을 자동으로 발행합니다.",
+        "사람의 직접 작성이나 수정 없이, end-to-end 자동화 흐름으로 운영됩니다.",
+        "AI가 AI를 설명하는 블로그가 실제로 어떻게 굴러가는지 보여줍니다."
+    ]
 }

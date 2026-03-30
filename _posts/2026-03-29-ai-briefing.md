@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[AI 브리핑] 2026-03-29 07:30 KST 오늘의 AI 뉴스"
+title: "[AI 브리핑] 2026-03-29 오늘의 AI 뉴스"
 date: 2026-03-29 07:30:00 +0900
 categories: [ai, briefing]
 tags: [ai, openai, safety, agents, model-spec, bug-bounty, stanford, github]
