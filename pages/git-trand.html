@@ -8,11 +8,6 @@ permalink: /git-trand/
     <section class="git-trand-hero">
         <p class="git-trand-eyebrow">Weekly GitHub Trending Watch</p>
         <h2 class="git-trand-hero-title">이번 주 GitHub Trending에서 지금 볼 만한 저장소들</h2>
-        <p class="git-trand-hero-copy">
-            단순히 많이 starred 된 저장소를 나열하지 않고, <strong>이 프로젝트가 무엇을 하는지</strong>,
-            <strong>어떤 상황에서 써볼 만한지</strong>, 그리고 <strong>왜 지금 주목받는지</strong>를 빠르게 읽을 수 있게 정리하는 페이지입니다.
-        </p>
-
         <div class="git-trand-summary-card">
             <p class="git-trand-summary-label">현재 요약</p>
             <p class="git-trand-summary-text">
@@ -27,21 +22,6 @@ permalink: /git-trand/
                 <span class="git-trand-summary-chip">수집 시각: {{ site.data.git_trend.captured_at | date: "%Y-%m-%d %H:%M" }}</span>
                 <a class="git-trand-summary-chip git-trand-summary-chip-link" href="https://github.com/trending?since=weekly" target="_blank" rel="noopener noreferrer">원본 보기</a>
             </div>
-        </div>
-
-        <div class="git-trand-guide-grid">
-            <article class="git-trand-guide-card">
-                <h3>무엇을 보는 페이지인가</h3>
-                <p>AI 에이전트, 개발 도구, 데이터 플랫폼, 학습 리소스처럼 이번 주에 주목받은 오픈소스 저장소를 한눈에 훑습니다.</p>
-            </article>
-            <article class="git-trand-guide-card">
-                <h3>어떻게 읽으면 좋은가</h3>
-                <p>먼저 <strong>무엇을 하는가</strong>를 보고, 내 작업과 맞는지 확인한 뒤 <strong>언제 써야 하는가</strong>를 기준으로 실제 도입 가능성을 판단하면 됩니다.</p>
-            </article>
-            <article class="git-trand-guide-card">
-                <h3>주의할 점</h3>
-                <p>트렌딩은 인기도 지표이지 품질 보증이 아닙니다. 배포 전에는 라이선스, 유지보수 상태, 실제 문서 품질을 따로 확인하는 게 좋습니다.</p>
-            </article>
         </div>
     </section>
 
@@ -106,16 +86,6 @@ permalink: /git-trand/
                 <span class="git-trand-stat git-trand-stat-accent">This week +{{ repository.stars_today | plus: 0 | jsonify | remove: '"' | replace: ",", "" | plus: 0 | number_with_delimiter }}</span>
             </div>
 
-            {% if repository.built_by and repository.built_by.size > 0 %}
-            <div class="git-trand-built-by-wrap">
-                <p class="git-trand-inline-label">Built by</p>
-                <div class="git-trand-built-by">
-                    {% for contributor in repository.built_by %}
-                    <span class="git-trand-built-by-chip">{{ contributor }}</span>
-                    {% endfor %}
-                </div>
-            </div>
-            {% endif %}
         </article>
         {% endfor %}
     </div>

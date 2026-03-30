@@ -273,7 +273,6 @@ body {
   line-height: 1.8;
 }
 
-
 @media screen and (max-width: 768px) {
   .about-page-shell {
     padding: 0;
@@ -330,16 +329,7 @@ body {
   line-height: 1.18;
 }
 
-.git-trand-hero-copy {
-  max-width: 860px;
-  margin-bottom: 1.2rem;
-  color: #4f3a32;
-  font-size: 1.02rem;
-  line-height: 1.9;
-}
-
 .git-trand-summary-card,
-.git-trand-guide-card,
 .git-trand-repo-card,
 .git-trand-explain-box {
   border: 1px solid rgba(91, 58, 45, 0.08);
@@ -389,28 +379,6 @@ body {
 
 .git-trand-summary-chip-link:hover {
   color: #c16441;
-}
-
-.git-trand-guide-grid {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 1rem;
-  margin-bottom: 1.45rem;
-}
-
-.git-trand-guide-card {
-  padding: 1.15rem 1.2rem;
-}
-
-.git-trand-guide-card h3 {
-  margin-bottom: 0.65rem;
-  color: #33211b;
-  font-size: 1.02rem;
-}
-
-.git-trand-guide-card p {
-  color: #5c453b;
-  line-height: 1.8;
 }
 
 .git-trand-language-dot {
@@ -531,16 +499,7 @@ body {
   color: #7d422f;
 }
 
-.git-trand-built-by-wrap {
-  margin-top: 0.15rem;
-}
-
-.git-trand-built-by-wrap .git-trand-inline-label {
-  margin-bottom: 0.55rem;
-}
-
 @media screen and (max-width: 900px) {
-  .git-trand-guide-grid,
   .git-trand-explain-grid {
     grid-template-columns: 1fr;
   }
