@@ -460,6 +460,12 @@ body {
   margin-bottom: 1rem;
 }
 
+@media screen and (min-width: 1100px) {
+  .git-trand-explain-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
 .git-trand-explain-box {
   padding: 1rem 1.05rem;
   background: #fffdfa;

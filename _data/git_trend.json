@@ -1,8 +1,8 @@
 {
   "source_url": "https://github.com/trending?since=weekly",
-  "captured_at": "2026-03-30T21:08:38+09:00",
+  "captured_at": "2026-03-30T21:12:00+09:00",
   "time_range": "weekly",
-  "summary": "2026-03-30 기준 GitHub Trending(weekly)에서는 AI 에이전트 인프라, 자동화 도구, 음성 AI, 교육형 리소스가 강하게 올라오고 있습니다. 특히 바로 실험 가능한 에이전트/워크플로 계열 저장소가 상위권을 차지했습니다.",
+  "summary": "2026-03-30 기준 GitHub Trending(weekly)에서는 단순 모델 데모보다 에이전트 운영 스택, 조사 자동화, 메모리 인프라, 음성 인터페이스, 자동 콘텐츠 생성처럼 바로 워크플로에 붙일 수 있는 프로젝트가 강하게 올라오고 있습니다. 즉 이번 주 트렌드는 '더 똑똑한 모델' 자체보다 '모델을 실제 일에 쓰는 구조'에 더 가까워 보입니다.",
   "repositories": [
     {
       "rank": 1,
@@ -12,14 +12,16 @@
       "url": "https://github.com/mvanhorn/last30days-skill",
       "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
       "category": "Research Agent",
-      "what_it_does": "여러 커뮤니티와 웹 소스를 가로질러 특정 주제를 조사하고, 결과를 종합 요약해 주는 에이전트 스킬 프로젝트입니다.",
-      "when_to_use": "하나의 검색 결과보다 커뮤니티 반응과 다중 소스를 함께 묶어 조사하고 싶을 때 유용합니다.",
+      "what_it_does": "이 프로젝트는 하나의 검색 엔진 결과만 보여주는 도구가 아니라, Reddit·X·YouTube·Hacker News·Polymarket·웹 검색 같은 여러 채널을 가로질러 특정 주제를 조사한 뒤 이를 하나의 근거 있는 요약으로 합쳐주는 에이전트 스킬입니다. 즉 '여론', '기술적 맥락', '영상/커뮤니티 반응', '예측 시장 분위기'를 동시에 묶어 보려는 성격이 강합니다.",
+      "when_to_use": "새로운 기술이나 이슈를 조사할 때 공식 발표만으로는 부족하고, 커뮤니티 반응과 실제 사용자 신호까지 함께 보고 싶을 때 적합합니다. 특히 블로그 리서치, 시장 조사, 제품 탐색, 트렌드 브리핑 같은 작업에 잘 맞습니다.",
+      "why_it_matters": "이번 주에 이 저장소가 강하게 뜬 이유는, 지금 사람들의 관심이 단순 챗봇보다 '에이전트가 실제로 어떻게 조사 업무를 대신할 수 있는가' 쪽으로 이동하고 있기 때문으로 보입니다. 검색을 잘하는 모델보다, 여러 소스를 조합해 맥락을 만들어주는 워크플로가 더 주목받는 흐름입니다.",
+      "best_for": "리서처, 블로거, 시장 분석가, 에이전트 워크플로를 설계하는 개발자",
+      "adoption_notes": "실제 도입 전에는 소스별 품질 편차, 중복 정보 처리, 최신성 판단 기준을 확인하는 것이 좋습니다. 특히 커뮤니티 소스는 노이즈가 많기 때문에 요약 결과를 맹신하면 안 됩니다.",
       "language": "Python",
       "language_color": "#3572A5",
       "stars": 16127,
       "forks": 1275,
-      "stars_today": 10436,
-      "built_by": ["mvanhorn", "claude", "j-sperling", "phjlljp", "iliaal"]
+      "stars_today": 10436
     },
     {
       "rank": 2,
@@ -29,14 +31,16 @@
       "url": "https://github.com/pascalorg/editor",
       "description": "Create and share 3D architectural projects.",
       "category": "3D Design",
-      "what_it_does": "3D 건축 프로젝트를 만들고 공유할 수 있게 해주는 편집기 성격의 프로젝트입니다.",
-      "when_to_use": "건축·공간 설계 관련 3D 편집 워크플로를 웹 기반으로 다루고 싶을 때 볼 만합니다.",
+      "what_it_does": "건축·공간 설계 프로젝트를 3D로 만들고 공유하는 편집기 성격의 프로젝트입니다. 단순 뷰어가 아니라 편집과 협업, 결과 공유까지 염두에 둔 구조로 보이며, 브라우저 기반 설계 경험을 지향하는 흐름에 가깝습니다.",
+      "when_to_use": "건축 시안, 공간 레이아웃, 인테리어 컨셉, 간단한 3D 구조 시뮬레이션처럼 시각적 설계 결과를 빠르게 다뤄야 할 때 검토할 만합니다. 특히 '무거운 전문 툴 대신 웹에서 가볍게 시작하고 싶다'는 경우에 잘 맞을 수 있습니다.",
+      "why_it_matters": "AI나 에이전트 프로젝트 일색인 트렌딩 속에서 이런 도구가 뜨는 건, 생산성 영역에서도 여전히 '바로 만져볼 수 있는 시각적 앱'이 강한 관심을 받는다는 뜻입니다. 즉 트렌딩은 AI만이 아니라 실제 창작 툴에도 반응하고 있습니다.",
+      "best_for": "건축/공간 기획자, 웹 기반 3D 에디터를 찾는 개발자, 시각적 프로토타입이 필요한 팀",
+      "adoption_notes": "실사용 전에는 렌더링 성능, 저장 포맷, 협업 기능, 대형 프로젝트에서의 안정성을 따로 확인해야 합니다.",
       "language": "TypeScript",
       "language_color": "#3178c6",
       "stars": 8362,
       "forks": 1081,
-      "stars_today": 5790,
-      "built_by": ["wass08", "Aymericr", "claude", "anton-pascal", "open-pascal"]
+      "stars_today": 5790
     },
     {
       "rank": 3,
@@ -46,14 +50,16 @@
       "url": "https://github.com/bytedance/deer-flow",
       "description": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
       "category": "Agent Harness",
-      "what_it_does": "리서치, 코딩, 생성 작업을 장시간 처리할 수 있도록 설계된 오픈소스 슈퍼에이전트 하니스입니다.",
-      "when_to_use": "짧은 질의응답이 아니라 여러 단계의 장기 작업을 자동화하거나, 에이전트 운영 구조 자체를 연구하고 싶을 때 적합합니다.",
+      "what_it_does": "이 프로젝트는 단순히 모델 API를 감싼 챗봇이 아니라, 장시간 이어지는 복합 작업을 수행하기 위한 에이전트 하니스입니다. 샌드박스, 메모리, 툴, 스킬, 서브에이전트, 메시지 게이트웨이 같은 운영 요소를 붙여서 '몇 분~몇 시간 걸리는 일'을 처리하도록 설계된 점이 핵심입니다.",
+      "when_to_use": "리서치 → 구현 → 검토 → 재시도처럼 여러 단계를 거치는 긴 작업을 자동화하고 싶을 때 적합합니다. 단발성 Q&A보다, 장기적 상태 관리와 역할 분업이 필요한 에이전트 시스템을 만들고 싶은 팀이 볼 만합니다.",
+      "why_it_matters": "이번 주 트렌딩에서 가장 상징적인 프로젝트 중 하나입니다. 요즘 관심사는 '모델이 얼마나 똑똑한가'보다 '에이전트를 어떻게 운영 가능한 시스템으로 만들 것인가'에 더 가까운데, deer-flow는 바로 그 질문에 답하는 구조를 보여줍니다.",
+      "best_for": "에이전트 플랫폼 개발자, 복잡한 자동화 워크플로를 설계하는 팀, 장기 태스크 오케스트레이션을 연구하는 사람",
+      "adoption_notes": "실도입 전에 운영 복잡도, 비용 관리, 실패 복구, 메모리 정책, 보안 경계 설정을 반드시 검토해야 합니다. 이런 하니스는 데모보다 운영 설계가 더 중요합니다.",
       "language": "Python",
       "language_color": "#3572A5",
       "stars": 53624,
       "forks": 6461,
-      "stars_today": 18158,
-      "built_by": ["MagicCube", "WillemJiang", "hetaoBackend", "henry-byted", "claude"]
+      "stars_today": 18158
     },
     {
       "rank": 4,
@@ -63,14 +69,16 @@
       "url": "https://github.com/hacksider/Deep-Live-Cam",
       "description": "real time face swap and one-click video deepfake with only a single image",
       "category": "Media Generation",
-      "what_it_does": "한 장의 이미지로 실시간 얼굴 교체와 영상 딥페이크를 수행하는 미디어 생성 도구입니다.",
-      "when_to_use": "기술 데모나 연구 검토 목적에서는 볼 수 있지만, 실제 사용 전에는 윤리·법적 문제를 반드시 점검해야 합니다.",
+      "what_it_does": "한 장의 사진만으로 실시간 얼굴 교체나 영상 딥페이크를 수행하는 미디어 생성 프로젝트입니다. 기술적으로는 합성 미디어, 얼굴 추적, 실시간 추론, 영상 파이프라인이 결합된 사례로 볼 수 있습니다.",
+      "when_to_use": "합성 미디어 기술 자체를 연구하거나 데모를 살펴보는 용도로는 의미가 있습니다. 다만 일반 사용자 도입 관점에서는 재미보다 리스크가 먼저 보이는 도구에 가깝습니다.",
+      "why_it_matters": "이 프로젝트가 계속 강한 관심을 받는 건, 실시간 생성형 미디어에 대한 대중적 호기심이 여전히 크다는 뜻입니다. 동시에 오픈소스가 상업 제품 수준의 효과를 빠르게 따라잡는 영역이 어디인지도 보여줍니다.",
+      "best_for": "컴퓨터비전 연구자, 합성 미디어 기술을 검토하는 개발자, 실시간 영상 처리 파이프라인에 관심 있는 사람",
+      "adoption_notes": "윤리·초상권·사칭·법적 책임 문제가 매우 큽니다. 실제 활용 전에는 법적 사용 범위와 안전장치를 먼저 보는 게 맞습니다.",
       "language": "Python",
       "language_color": "#3572A5",
       "stars": 85894,
       "forks": 12498,
-      "stars_today": 4805,
-      "built_by": ["hacksider", "KRSHH", "vic4key", "laurigates", "pereiraroland26"]
+      "stars_today": 4805
     },
     {
       "rank": 5,
@@ -80,14 +88,16 @@
       "url": "https://github.com/Crosstalk-Solutions/project-nomad",
       "description": "Project N.O.M.A.D, is a self-contained, offline survival computer packed with critical tools, knowledge, and AI to keep you informed and empowered—anytime, anywhere.",
       "category": "Offline AI System",
-      "what_it_does": "오프라인 환경에서도 지식·도구·AI를 활용할 수 있게 구성한 자급형 컴퓨팅 프로젝트입니다.",
-      "when_to_use": "네트워크가 제한된 환경, 휴대형 오프라인 시스템, 생존/현장형 컴퓨팅 구성이 필요할 때 흥미롭게 볼 수 있습니다.",
+      "what_it_does": "오프라인 환경에서도 핵심 도구, 지식, AI 기능을 유지할 수 있게 구성한 자급형 컴퓨팅 시스템 프로젝트입니다. 단순 앱 하나가 아니라 '연결이 없어도 돌아가는 개인형 정보/AI 스택'이라는 발상이 중심에 있습니다.",
+      "when_to_use": "인터넷 연결이 불안정한 환경, 휴대형 현장 시스템, 생존·재난 대비, 폐쇄망 AI 실험 같은 시나리오에서 참고할 만합니다. 특히 클라우드 의존성을 줄이고 싶은 사람에게 흥미로운 방향입니다.",
+      "why_it_matters": "대부분의 AI 프로젝트가 클라우드 연결을 전제로 하는 가운데, 이 프로젝트는 반대로 'AI를 로컬·오프라인 자산으로 만들 수 있는가'를 보여줍니다. 이 점이 차별화 포인트라서 주목을 받는 것으로 보입니다.",
+      "best_for": "오프라인 시스템 빌더, 홈랩 사용자, 현장형 컴퓨팅에 관심 있는 개발자",
+      "adoption_notes": "하드웨어 요구 사항, 전력/저장소 제약, 로컬 모델 성능, 유지보수 난이도를 함께 봐야 합니다.",
       "language": "TypeScript",
       "language_color": "#3178c6",
       "stars": 20012,
       "forks": 1892,
-      "stars_today": 11503,
-      "built_by": ["jakeaturner", "claude", "chriscrosstalk", "cosmistack-bot", "apps/dependabot"]
+      "stars_today": 11503
     },
     {
       "rank": 6,
@@ -97,14 +107,16 @@
       "url": "https://github.com/FujiwaraChoki/MoneyPrinterV2",
       "description": "Automate the process of making money online.",
       "category": "Automation",
-      "what_it_does": "온라인 수익화 과정을 자동화하는 데 초점을 둔 프로젝트입니다.",
-      "when_to_use": "자동화 파이프라인 아이디어를 참고하는 정도로 볼 수는 있지만, 과장된 약속이나 품질 문제는 별도로 검증해야 합니다.",
+      "what_it_does": "온라인 수익화 흐름을 자동화하겠다는 매우 직접적인 목표를 내세운 프로젝트입니다. 콘텐츠 생성, 배포, 운영 같은 반복 작업을 줄이려는 자동화 도구 계열로 이해할 수 있습니다.",
+      "when_to_use": "수익화 자체보다도 '자동 콘텐츠/자동 운영 파이프라인이 어떻게 설계되는가'를 참고하고 싶을 때 보는 편이 낫습니다. 워크플로 자동화 아이디어를 얻는 용도로는 의미가 있습니다.",
+      "why_it_matters": "이런 유형의 저장소가 뜨는 건 여전히 많은 사용자가 AI를 '수익화 자동화 도구'로 보고 있다는 뜻입니다. 동시에 트렌딩에서 실용성과 자극적 메시지가 얼마나 강한 반응을 얻는지도 보여줍니다.",
+      "best_for": "콘텐츠 자동화 흐름을 연구하는 개발자, 자동 운영 실험을 해보려는 개인 제작자",
+      "adoption_notes": "과장된 약속, 플랫폼 정책 위반 가능성, 저품질 자동화 결과물 문제를 꼭 검토해야 합니다. 별도 검증 없이 바로 신뢰할 프로젝트는 아닙니다.",
       "language": "Python",
       "language_color": "#3572A5",
       "stars": 27365,
       "forks": 2895,
-      "stars_today": 8460,
-      "built_by": ["FujiwaraChoki", "claude", "supperfreddo", "SaroAntonelloLovito", "TomyDiNero"]
+      "stars_today": 8460
     },
     {
       "rank": 7,
@@ -114,14 +126,16 @@
       "url": "https://github.com/SakanaAI/AI-Scientist-v2",
       "description": "The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search",
       "category": "AI Research",
-      "what_it_does": "에이전트 기반 탐색으로 과학적 발견 과정을 자동화하려는 연구 프로젝트입니다.",
-      "when_to_use": "AI가 연구 아이디어 탐색·실험 설계에 어디까지 개입할 수 있는지 보고 싶을 때 참고할 만합니다.",
+      "what_it_does": "에이전트 기반 탐색과 트리 서치를 활용해 과학적 발견 과정을 자동화하려는 연구 프로젝트입니다. 쉽게 말하면 AI가 가설 탐색, 실험 방향 제안, 결과 비교 같은 연구적 사고 과정을 어느 정도 대신할 수 있는지를 보여주려는 시도입니다.",
+      "when_to_use": "연구 자동화, AI-for-science, 에이전트 기반 탐색 알고리즘에 관심이 있을 때 읽어볼 가치가 있습니다. 바로 제품에 붙이는 도구라기보다 연구 흐름을 이해하는 쪽에 더 가깝습니다.",
+      "why_it_matters": "AI가 코딩 보조를 넘어 연구 조력자로 확장될 수 있느냐는 질문이 커지고 있는데, 이 프로젝트는 그 질문의 최전선에 있습니다. 그래서 실무 도구는 아니어도 상징성이 큽니다.",
+      "best_for": "AI 연구자, 논문/실험 자동화에 관심 있는 개발자, 에이전트 탐색 기법을 보는 사람",
+      "adoption_notes": "결과 재현성, 평가 방식, 실제 연구 품질에 대한 검증이 중요합니다. 연구 프로젝트는 데모 인상보다 실험 설계가 핵심입니다.",
       "language": "Python",
       "language_color": "#3572A5",
       "stars": 3968,
       "forks": 584,
-      "stars_today": 1449,
-      "built_by": ["conglu1997", "kotama7", "runopti", "RobertTLange", "Shawn-Hwang"]
+      "stars_today": 1449
     },
     {
       "rank": 8,
@@ -131,14 +145,16 @@
       "url": "https://github.com/microsoft/VibeVoice",
       "description": "Open-Source Frontier Voice AI",
       "category": "Voice AI",
-      "what_it_does": "오픈소스 음성 AI 스택으로, 음성 인터페이스와 보이스 기반 애플리케이션 개발에 초점을 둔 프로젝트입니다.",
-      "when_to_use": "TTS, 음성 비서, 보이스 UX 프로토타입을 만들거나 음성 AI 흐름을 따라가고 싶을 때 검토할 만합니다.",
+      "what_it_does": "음성 생성과 음성 인터페이스 개발을 겨냥한 오픈소스 음성 AI 프로젝트입니다. 간단한 TTS 데모 수준이 아니라, 향후 보이스 에이전트나 음성 중심 UX를 구축하는 기반 기술로 해석할 수 있습니다.",
+      "when_to_use": "음성 비서, 읽어주는 기능, 음성형 챗 인터페이스, 보이스 기반 제품 프로토타입을 만들고 싶을 때 검토 가치가 큽니다. 특히 텍스트 챗에서 음성 인터랙션으로 확장하려는 팀에게 잘 맞습니다.",
+      "why_it_matters": "이번 주 트렌딩에서 음성 AI가 여전히 강하다는 걸 보여주는 대표 사례입니다. 텍스트 중심 AI 다음 단계가 음성 UX라는 기대가 계속 크다는 뜻이기도 합니다.",
+      "best_for": "보이스 앱 개발자, 음성 비서/에이전트를 실험하는 팀, TTS/음성 UX에 관심 있는 제품 개발자",
+      "adoption_notes": "실사용 전에는 음질, 지연시간, 라이선스, 상업적 이용 범위, 다국어 품질을 꼭 확인해야 합니다.",
       "language": "Python",
       "language_color": "#3572A5",
       "stars": 28521,
       "forks": 3136,
-      "stars_today": 4421,
-      "built_by": ["YaoyaoChang", "MSLDCherryPick", "apps/github-copilot-cli", "MSJwyu", "Damon-Salvetore"]
+      "stars_today": 4421
     },
     {
       "rank": 9,
@@ -148,14 +164,16 @@
       "url": "https://github.com/supermemoryai/supermemory",
       "description": "Memory engine and app that is extremely fast, scalable. The Memory API for the AI era.",
       "category": "Memory Infrastructure",
-      "what_it_does": "AI 애플리케이션을 위한 메모리 엔진과 API를 제공하는 인프라 성격의 프로젝트입니다.",
-      "when_to_use": "에이전트나 개인화 앱에서 대화/지식 메모리를 별도 계층으로 다루고 싶을 때 살펴볼 만합니다.",
+      "what_it_does": "AI 애플리케이션에서 기억 기능을 별도 계층으로 다루기 위한 메모리 엔진/앱/API 프로젝트입니다. 즉 모델이 바로 모든 걸 기억하는 게 아니라, 외부 메모리 시스템을 통해 컨텍스트를 축적하고 재활용하는 구조를 지향합니다.",
+      "when_to_use": "개인화된 AI 앱, 장기 대화형 에이전트, 사용자 히스토리 기반 추천/응답 시스템을 만들고 싶을 때 특히 중요합니다. '세션이 끊겨도 이어지는 경험'이 필요하면 이런 계층을 검토해야 합니다.",
+      "why_it_matters": "요즘 에이전트 시스템에서 메모리는 부가 기능이 아니라 핵심 인프라로 취급되고 있습니다. supermemory가 뜬 건 이 문제가 이제 많은 개발자에게 공통 과제가 됐다는 신호에 가깝습니다.",
+      "best_for": "에이전트 플랫폼 개발자, 개인화 앱 개발자, 메모리 계층을 설계하는 백엔드/인프라 엔지니어",
+      "adoption_notes": "저장 정책, 개인정보 처리, 검색 정확도, 비용, 지연시간을 함께 봐야 합니다. 메모리는 기능보다 운영 정책이 더 중요할 수 있습니다.",
       "language": "TypeScript",
       "language_color": "#3178c6",
       "stars": 20436,
       "forks": 1881,
-      "stars_today": 3010,
-      "built_by": ["Dhravya", "MaheshtheDev", "yxshv", "CodeTorso", "Kinfe123"]
+      "stars_today": 3010
     },
     {
       "rank": 10,
@@ -165,14 +183,16 @@
       "url": "https://github.com/TauricResearch/TradingAgents",
       "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
       "category": "Finance Agent",
-      "what_it_does": "금융 거래 분석과 의사결정을 멀티 에이전트 구조로 다루는 LLM 기반 프레임워크입니다.",
-      "when_to_use": "멀티 에이전트 구조가 금융 분석/트레이딩 시나리오에서 어떻게 쓰이는지 연구하거나 프로토타입을 만들 때 참고할 수 있습니다.",
+      "what_it_does": "금융 데이터 해석과 거래 의사결정을 멀티 에이전트 방식으로 다루는 LLM 프레임워크입니다. 역할별 에이전트가 서로 다른 시각으로 시장을 해석하고 결과를 조합하는 구조를 떠올리면 이해하기 쉽습니다.",
+      "when_to_use": "금융 분석 자동화, 투자 시뮬레이션, 멀티 에이전트 의사결정 구조를 실험하고 싶을 때 참고 가치가 있습니다. 실전 트레이딩 시스템보다 연구/프로토타입 단계에서 더 잘 맞습니다.",
+      "why_it_matters": "LLM을 금융 도메인에 적용하려는 수요는 계속 강한데, 단일 모델보다 멀티 에이전트 구성이 더 흥미로운 실험장으로 인식되고 있음을 보여줍니다.",
+      "best_for": "퀀트 개발자, 금융 AI 연구자, 멀티 에이전트 의사결정 구조를 실험하는 사람",
+      "adoption_notes": "실거래에 적용하기 전에는 데이터 신뢰성, 지연시간, 리스크 관리, 환각 문제를 강하게 검증해야 합니다. 멋진 데모와 실제 운용 가능성은 전혀 다른 문제입니다.",
       "language": "Python",
       "language_color": "#3572A5",
       "stars": 44297,
       "forks": 8024,
-      "stars_today": 7622,
-      "built_by": ["Yijia-Xiao", "EdwardoSunny", "luohy15", "claude", "ZeroAct"]
+      "stars_today": 7622
     },
     {
       "rank": 11,
@@ -182,14 +202,16 @@
       "url": "https://github.com/harry0703/MoneyPrinterTurbo",
       "description": "利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.",
       "category": "Video Generation",
-      "what_it_does": "AI 모델을 이용해 짧은 영상을 빠르게 생성하는 자동화형 비디오 제작 프로젝트입니다.",
-      "when_to_use": "짧은 영상 자동 생성 워크플로를 실험하거나, 콘텐츠 자동화 도구 흐름을 파악하고 싶을 때 볼 만합니다.",
+      "what_it_does": "대형 AI 모델을 이용해 짧은 영상을 자동 생성하는 워크플로 중심 프로젝트입니다. 텍스트/자산 입력에서 영상 결과물까지 이어지는 콘텐츠 자동화 파이프라인에 가깝습니다.",
+      "when_to_use": "숏폼 영상 자동 제작 흐름을 실험하거나, 마케팅/콘텐츠 생산 자동화가 어디까지 가능한지 보고 싶을 때 참고할 만합니다.",
+      "why_it_matters": "생성형 AI에서 여전히 가장 강한 수요 중 하나가 '콘텐츠를 더 빨리 많이 만드는 것'이기 때문에 이런 프로젝트는 꾸준히 주목받습니다. 특히 짧은 영상은 실용성과 화제성을 동시에 갖고 있습니다.",
+      "best_for": "숏폼 콘텐츠 자동화에 관심 있는 제작자, 마케팅 자동화 도구를 실험하는 개발자",
+      "adoption_notes": "결과물 품질 편차, 저작권/소스 자산 문제, 플랫폼 정책, 반복적 템플릿화 위험을 따로 확인해야 합니다.",
       "language": "Python",
       "language_color": "#3572A5",
       "stars": 54074,
       "forks": 7632,
-      "stars_today": 3260,
-      "built_by": ["harry0703", "yyhhyyyyyy", "vuisme", "KevinZhang19870314", "garylab"]
+      "stars_today": 3260
     }
   ]
 }
