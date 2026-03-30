@@ -395,15 +395,15 @@ body {
 }
 
 .git-trand-repo-card {
-  padding: 1.4rem;
+  padding: 1.25rem;
 }
 
 .git-trand-repo-head {
   display: flex;
-  gap: 1rem;
+  gap: 0.9rem;
   align-items: flex-start;
   justify-content: space-between;
-  margin-bottom: 1rem;
+  margin-bottom: 0.85rem;
 }
 
 .git-trand-repo-title-wrap {
@@ -456,18 +456,12 @@ body {
 .git-trand-explain-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 0.9rem;
-  margin-bottom: 1rem;
-}
-
-@media screen and (min-width: 1100px) {
-  .git-trand-explain-grid {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
+  gap: 0.85rem;
+  margin-bottom: 0.9rem;
 }
 
 .git-trand-explain-box {
-  padding: 1rem 1.05rem;
+  padding: 0.9rem 0.95rem;
   background: #fffdfa;
 }
 
@@ -476,15 +470,17 @@ body {
 }
 
 .git-trand-box-copy {
-  margin-top: 0.5rem;
+  margin-top: 0.4rem;
   color: #49342d;
-  line-height: 1.85;
+  font-size: 0.98rem;
+  line-height: 1.72;
 }
 
 .git-trand-repo-description {
-  margin-bottom: 1rem;
-  color: #49342d;
-  line-height: 1.8;
+  margin-bottom: 0.9rem;
+  color: #5a443a;
+  font-size: 0.97rem;
+  line-height: 1.7;
 }
 
 .git-trand-inline-label {
