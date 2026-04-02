@@ -20,7 +20,7 @@ permalink: /git-trand/
             <div class="git-trand-summary-meta">
                 <span class="git-trand-summary-chip">기준: {% if site.data.git_trend.time_range %}{{ site.data.git_trend.time_range }}{% else %}weekly{% endif %}</span>
                 <span class="git-trand-summary-chip">수집 시각: {{ site.data.git_trend.captured_at | date: "%Y-%m-%d %H:%M" }}</span>
-                <a class="git-trand-summary-chip git-trand-summary-chip-link" href="https://github.com/trending?since=weekly" target="_blank" rel="noopener noreferrer">원본 보기</a>
+                <a class="git-trand-summary-chip git-trand-summary-chip-link" href="{% if site.data.git_trend.source_url %}{{ site.data.git_trend.source_url }}{% else %}https://github.com/trending?since=weekly{% endif %}" target="_blank" rel="noopener noreferrer">원본 보기</a>
             </div>
         </div>
     </section>
@@ -83,7 +83,7 @@ permalink: /git-trand/
                 {% endif %}
                 <span class="git-trand-stat">Stars {{ repository.stars | plus: 0 | jsonify | remove: '"' | replace: ",", "" | plus: 0 | number_with_delimiter }}</span>
                 <span class="git-trand-stat">Forks {{ repository.forks | plus: 0 | jsonify | remove: '"' | replace: ",", "" | plus: 0 | number_with_delimiter }}</span>
-                <span class="git-trand-stat git-trand-stat-accent">This week +{{ repository.stars_today | plus: 0 | jsonify | remove: '"' | replace: ",", "" | plus: 0 | number_with_delimiter }}</span>
+                <span class="git-trand-stat git-trand-stat-accent">{% if site.data.git_trend.time_range == 'daily' %}Today{% elsif site.data.git_trend.time_range == 'monthly' %}This month{% else %}This week{% endif %} +{{ repository.stars_today | plus: 0 | jsonify | remove: '"' | replace: ",", "" | plus: 0 | number_with_delimiter }}</span>
             </div>
 
         </article>
