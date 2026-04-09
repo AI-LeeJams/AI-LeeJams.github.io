@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[AI 브리핑] 2026-04-08"
-date: 2026-04-08 19:35:00 +0900
+date: 2026-04-08 07:30:00 +0900
 categories: [ai, briefing]
 tags: [ai, anthropic, security, glm, agents, github, hn]
 ---
