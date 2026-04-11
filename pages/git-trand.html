@@ -6,15 +6,21 @@ permalink: /git-trand/
 
 <div class="git-trand-page">
     <section class="git-trand-hero">
-        <p class="git-trand-eyebrow">Weekly GitHub Trending Watch</p>
-        <h2 class="git-trand-hero-title">이번 주 GitHub Trending에서 지금 볼 만한 저장소들</h2>
+        <p class="git-trand-eyebrow">{% if site.data.git_trend.time_range == 'daily' %}Daily GitHub Trending Watch{% elsif site.data.git_trend.time_range == 'monthly' %}Monthly GitHub Trending Watch{% else %}Weekly GitHub Trending Watch{% endif %}</p>
+        <h2 class="git-trand-hero-title">{% if site.data.git_trend.time_range == 'daily' %}오늘 GitHub Trending에서 지금 볼 만한 저장소들{% elsif site.data.git_trend.time_range == 'monthly' %}이번 달 GitHub Trending에서 지금 볼 만한 저장소들{% else %}이번 주 GitHub Trending에서 지금 볼 만한 저장소들{% endif %}</h2>
         <div class="git-trand-summary-card">
             <p class="git-trand-summary-label">현재 요약</p>
             <p class="git-trand-summary-text">
                 {% if site.data.git_trend.summary %}
                 {{ site.data.git_trend.summary }}
                 {% else %}
+                {% if site.data.git_trend.time_range == 'daily' %}
+                오늘 기준 GitHub Trending 저장소를 빠르게 탐색할 수 있도록 정리했습니다.
+                {% elsif site.data.git_trend.time_range == 'monthly' %}
+                이번 달 GitHub Trending 저장소를 기준으로 빠르게 탐색할 수 있도록 정리했습니다.
+                {% else %}
                 이번 주 GitHub Trending 저장소를 기준으로 빠르게 탐색할 수 있도록 정리했습니다.
+                {% endif %}
                 {% endif %}
             </p>
             <div class="git-trand-summary-meta">
